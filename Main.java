@@ -70,7 +70,7 @@ public class Main
 	   
 	} 
 	
-	    if(initialPhase.equals("vapor")); {
+	    if(initialPhase.equals("vapor")) {
 	        heatEnergy += tempChangevapor(mass, initialTemp, finalTemp, finalPhase, endothermic);
 	        
 	    if(!finalPhase.equals("vapor")) {
@@ -87,7 +87,7 @@ public class Main
 	  
 	
 	
-	System.out.println("Total Heat Energy: " + heatEnergy + "k3");
+	System.out.println("Total Heat Energy: " + round(heatEnergy) + "k3");
 	
 	}
 	
